@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-label="Floor plan placeholder">
+  <rect width="640" height="420" fill="#f8f3ee" />
+  <rect x="80" y="90" width="220" height="160" fill="none" stroke="#2d2d2d" stroke-width="3" />
+  <rect x="320" y="90" width="240" height="120" fill="none" stroke="#2d2d2d" stroke-width="3" />
+  <rect x="320" y="230" width="180" height="100" fill="none" stroke="#2d2d2d" stroke-width="3" />
+  <text x="50%" y="58%" fill="#2d2d2d" font-family="JetBrains Mono, monospace" font-size="16" letter-spacing="2" text-anchor="middle">FLOOR PLAN</text>
+</svg>

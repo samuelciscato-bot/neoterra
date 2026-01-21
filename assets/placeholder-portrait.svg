@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-label="Portrait placeholder">
+  <rect width="640" height="420" fill="#f2f4f2" />
+  <circle cx="320" cy="170" r="70" fill="#2b6d8c" fill-opacity="0.7" />
+  <rect x="220" y="250" width="200" height="110" rx="40" fill="#1a3a2f" fill-opacity="0.7" />
+  <text x="50%" y="60" fill="#2d2d2d" font-family="JetBrains Mono, monospace" font-size="18" letter-spacing="2" text-anchor="middle">TEAM</text>
+</svg>

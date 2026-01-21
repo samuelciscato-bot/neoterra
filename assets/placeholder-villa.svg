@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-label="Villa image placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d4a574" />
+      <stop offset="100%" stop-color="#2b6d8c" />
+    </linearGradient>
+  </defs>
+  <rect width="640" height="420" fill="url(#bg)" />
+  <rect x="60" y="260" width="520" height="90" rx="20" fill="#ffffff" fill-opacity="0.2" />
+  <text x="50%" y="46%" fill="#ffffff" font-family="JetBrains Mono, monospace" font-size="22" letter-spacing="3" text-anchor="middle">VILLA IMAGE</text>
+</svg>

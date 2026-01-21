@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-label="Map placeholder">
+  <rect width="640" height="420" fill="#edf1ef" />
+  <path d="M60 90 L240 60 L420 140 L580 90" stroke="#2b6d8c" stroke-width="6" fill="none" />
+  <circle cx="240" cy="60" r="12" fill="#1a3a2f" />
+  <circle cx="420" cy="140" r="12" fill="#1a3a2f" />
+  <text x="50%" y="55%" fill="#2d2d2d" font-family="JetBrains Mono, monospace" font-size="18" letter-spacing="2" text-anchor="middle">MAP PLACEHOLDER</text>
+</svg>

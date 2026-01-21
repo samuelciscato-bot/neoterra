@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-label="Calendly placeholder">
+  <rect width="640" height="420" fill="#f8f3ee" />
+  <rect x="90" y="90" width="460" height="240" rx="18" fill="#ffffff" stroke="#1a3a2f" stroke-width="3" />
+  <text x="50%" y="180" fill="#1a3a2f" font-family="JetBrains Mono, monospace" font-size="18" letter-spacing="2" text-anchor="middle">CALENDLY</text>
+  <text x="50%" y="220" fill="#2d2d2d" font-family="JetBrains Mono, monospace" font-size="12" letter-spacing="2" text-anchor="middle">EMBED READY</text>
+</svg>

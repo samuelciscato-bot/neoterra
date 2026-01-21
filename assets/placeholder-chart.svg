@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-label="Chart placeholder">
+  <rect width="640" height="420" fill="#edf1ef" />
+  <rect x="120" y="200" width="80" height="140" fill="#2b6d8c" />
+  <rect x="240" y="160" width="80" height="180" fill="#1a3a2f" />
+  <rect x="360" y="120" width="80" height="220" fill="#d4a574" />
+  <rect x="480" y="180" width="80" height="160" fill="#b86f3a" />
+  <text x="50%" y="70" fill="#2d2d2d" font-family="JetBrains Mono, monospace" font-size="18" letter-spacing="2" text-anchor="middle">PERFORMANCE</text>
+</svg>
