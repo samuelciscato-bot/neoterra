@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find Your Fit | Arboreto Beach Houses</title>
+    <meta
+      name="description"
+      content="Answer 4 quick questions to see which Arboreto villa and ownership path fits your timeline and goals."
+    />
+    <link rel="stylesheet" href="assets/test2/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="shell navbar">
+        <a class="brand" href="index.html">Arboreto <span>Neoterra</span></a>
+        <nav>
+          <a href="villas.html">Villas</a>
+          <a href="location.html">Location</a>
+          <a href="lifestyle.html">Lifestyle</a>
+          <a href="investment.html">Investment</a>
+          <a href="about.html">Who we are</a>
+          <a class="nav-cta" href="contact.html">Schedule a tour</a>
+        </nav>
+        <button class="mobile-toggle" aria-label="Open menu">&#9776;</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="shell quiz-shell">
+          <div class="section-head">
+            <span class="pill">Fit quiz</span>
+            <h1>Find the right villa in under 2 minutes.</h1>
+            <p class="muted">
+              Answer four quick questions to match your timeline, lifestyle, and investment goals.
+            </p>
+          </div>
+          <div class="quiz-card" data-quiz>
+            <form data-track="quiz_submit" data-track-label="fit-quiz">
+              <div class="quiz-step active" data-step="1">
+                <h2>What is your primary goal?</h2>
+                <div class="quiz-options">
+                  <label class="quiz-option"><input type="radio" name="goal" value="Lifestyle" /> Lifestyle retreat</label>
+                  <label class="quiz-option"><input type="radio" name="goal" value="Investment" /> Rental investment</label>
+                  <label class="quiz-option"><input type="radio" name="goal" value="Hybrid" /> Mix of both</label>
+                </div>
+                <div class="quiz-footer">
+                  <button type="button" class="btn" data-next>Next</button>
+                </div>
+              </div>
+
+              <div class="quiz-step" data-step="2">
+                <h2>What timeline fits you best?</h2>
+                <div class="quiz-options">
+                  <label class="quiz-option"><input type="radio" name="timeline" value="3 months" /> Within 3 months</label>
+                  <label class="quiz-option"><input type="radio" name="timeline" value="6 months" /> Within 6 months</label>
+                  <label class="quiz-option"><input type="radio" name="timeline" value="12 months" /> Within 12 months</label>
+                  <label class="quiz-option"><input type="radio" name="timeline" value="Exploring" /> Exploring</label>
+                </div>
+                <div class="quiz-footer">
+                  <button type="button" class="btn btn-outline" data-prev>Back</button>
+                  <button type="button" class="btn" data-next>Next</button>
+                </div>
+              </div>
+
+              <div class="quiz-step" data-step="3">
+                <h2>Preferred villa size?</h2>
+                <div class="quiz-options">
+                  <label class="quiz-option"><input type="radio" name="size" value="3 bedrooms" /> 3 bedrooms</label>
+                  <label class="quiz-option"><input type="radio" name="size" value="4 bedrooms" /> 4 bedrooms</label>
+                  <label class="quiz-option"><input type="radio" name="size" value="Flexible" /> Flexible</label>
+                </div>
+                <div class="quiz-footer">
+                  <button type="button" class="btn btn-outline" data-prev>Back</button>
+                  <button type="button" class="btn" data-next>Next</button>
+                </div>
+              </div>
+
+              <div class="quiz-step" data-step="4">
+                <h2>How would you like to proceed?</h2>
+                <div class="quiz-options">
+                  <label class="quiz-option"><input type="radio" name="next" value="Brochure" /> Get the brochure</label>
+                  <label class="quiz-option"><input type="radio" name="next" value="Tour" /> Schedule a tour</label>
+                  <label class="quiz-option"><input type="radio" name="next" value="Call" /> Speak with the team</label>
+                </div>
+                <div class="quiz-footer">
+                  <button type="button" class="btn btn-outline" data-prev>Back</button>
+                  <a class="btn" href="contact.html" data-track="quiz_cta" data-track-label="quiz-complete">Continue</a>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="shell footer-grid">
+        <div>
+          <strong>Arboreto Beach Houses</strong>
+          <p>Neoterra Development · Playa Ocotal, Guanacaste</p>
+        </div>
+        <div>
+          <p>Contact</p>
+          <p>hello@arboreto.cr</p>
+          <p>+506 0000 0000</p>
+        </div>
+        <div>
+          <p>Explore</p>
+          <p><a href="villas.html">Villas</a> · <a href="investment.html">Investment</a></p>
+        </div>
+        <div>
+          <p>All rights reserved <span data-year></span></p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="assets/test2/script.js"></script>
+  </body>
+</html>
