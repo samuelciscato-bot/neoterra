@@ -6,14 +6,14 @@
     <title>Contact | Arboreto Beach Houses</title>
     <meta
       name="description"
-      content="Schedule a private tour or request the brochure for Arboreto Beach Houses in Playa Ocotal."
+      content="Schedule a private tour or request the brochure for Arboreto Beach Houses in Playa Ocotal, Costa Rica."
     />
-    <link rel="stylesheet" href="assets/styles.css" />
+    <link rel="stylesheet" href="assets/test2/styles.css" />
     <link rel="stylesheet" href="https://assets.calendly.com/assets/external/widget.css" />
   </head>
   <body>
     <header>
-      <div class="container navbar">
+      <div class="shell navbar">
         <a class="brand" href="index.html">Arboreto <span>Neoterra</span></a>
         <nav>
           <a href="villas.html">Villas</a>
@@ -21,45 +21,46 @@
           <a href="lifestyle.html">Lifestyle</a>
           <a href="investment.html">Investment</a>
           <a href="about.html">Who we are</a>
-          <a class="nav-cta" href="contact.html">Schedule a Tour</a>
+          <a class="nav-cta" href="contact.html">Schedule a tour</a>
         </nav>
         <button class="mobile-toggle" aria-label="Open menu">&#9776;</button>
       </div>
     </header>
 
     <main>
-      <section class="section hero">
-        <div class="container hero-grid">
-          <div>
-            <p class="villa-price">Contact</p>
+      <section class="hero">
+        <div class="shell hero-grid">
+          <div class="reveal">
+            <span class="pill">Contact</span>
             <h1>Schedule a private tour or request the full brochure.</h1>
             <p>
-              Share a few details and we will confirm availability, pricing, and the best next
+              Share a few details and our team will confirm availability, pricing, and the next
               steps within 24 hours.
             </p>
+            <div class="proof-row">
+              <div class="proof-card">Response within 24 hours</div>
+              <div class="proof-card">Virtual and in-person tours</div>
+              <div class="proof-card">EN/FR support</div>
+            </div>
           </div>
-          <div class="hero-card">
-            <div
-              class="calendly-inline-widget"
-              data-url="https://calendly.com/arboreto/intro-call?hide_gdpr_banner=1"
-              style="min-width: 280px; height: 320px;"
-            ></div>
-            <div class="hero-badges">
-              <div>Fast response</div>
-              <div>English and French</div>
-              <div>Virtual tours</div>
-              <div>On-site visits</div>
+          <div class="hero-visual reveal">
+            <div class="frame" style="padding: 0;">
+              <div
+                class="calendly-inline-widget"
+                data-url="https://calendly.com/arboreto/intro-call?hide_gdpr_banner=1"
+                style="min-width: 280px; height: 360px;"
+              ></div>
             </div>
           </div>
         </div>
       </section>
 
       <section class="section">
-        <div class="container split">
-          <div class="panel">
-            <h2 class="section-title">Request brochure</h2>
-            <form action="https://formspree.io/f/arboreto" method="POST">
-              <input type="hidden" name="source" value="arboreto-contact" />
+        <div class="shell split">
+          <div class="panel reveal">
+            <h2>Request brochure</h2>
+            <form action="https://formspree.io/f/arboreto" method="POST" data-track="form_submit" data-track-label="contact">
+              <input type="hidden" name="source" value="arboreto-contact-test2" />
               <input type="hidden" name="_subject" value="New Arboreto inquiry" />
               <div class="form-row">
                 <input type="text" name="firstName" placeholder="First name" autocomplete="given-name" required />
@@ -88,34 +89,34 @@
                 </select>
               </div>
               <textarea name="message" placeholder="Tell us what matters most to you"></textarea>
-              <button class="button" type="submit">Send request</button>
+              <button class="btn" type="submit" data-track="cta_form" data-track-label="contact">Send request</button>
               <p style="font-size: 12px; opacity: 0.7;">
                 By submitting, you agree to receive updates about Arboreto Beach Houses.
               </p>
             </form>
           </div>
-          <div class="panel">
-            <h2 class="section-title">Direct contact</h2>
-            <p>Prefer a direct call or WhatsApp?</p>
+          <div class="panel reveal">
+            <h2>What happens next</h2>
+            <ul class="list">
+              <li>We confirm availability and share the full brochure.</li>
+              <li>You select a villa and preferred timeline.</li>
+              <li>We schedule a private tour or video walkthrough.</li>
+              <li>Our team guides you through reservation steps.</li>
+            </ul>
+            <h2 style="margin-top: 24px;">Direct contact</h2>
             <p><strong>Email:</strong> hello@arboreto.cr</p>
             <p><strong>Phone:</strong> +506 0000 0000</p>
             <p><strong>WhatsApp:</strong> +506 0000 0000</p>
-            <div class="stat-bar">
-              <div class="stat"><strong>24 hrs</strong> typical response time</div>
-              <div class="stat"><strong>EN/FR</strong> support</div>
-              <div class="stat"><strong>Virtual</strong> tours available</div>
-              <div class="stat"><strong>On-site</strong> visits arranged</div>
-            </div>
           </div>
         </div>
       </section>
     </main>
 
-    <footer class="footer">
-      <div class="container footer-grid">
+    <footer>
+      <div class="shell footer-grid">
         <div>
           <strong>Arboreto Beach Houses</strong>
-          <p>Neoterra Development | Playa Ocotal, Guanacaste</p>
+          <p>Neoterra Development · Playa Ocotal, Guanacaste</p>
         </div>
         <div>
           <p>Contact</p>
@@ -123,8 +124,8 @@
           <p>+506 0000 0000</p>
         </div>
         <div>
-          <p>Quick links</p>
-          <p><a href="villas.html">Villas</a> | <a href="investment.html">Investment</a></p>
+          <p>Explore</p>
+          <p><a href="villas.html">Villas</a> · <a href="investment.html">Investment</a></p>
         </div>
         <div>
           <p>All rights reserved <span data-year></span></p>
@@ -132,7 +133,7 @@
       </div>
     </footer>
 
-    <script src="assets/script.js"></script>
+    <script src="assets/test2/script.js"></script>
     <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
   </body>
 </html>

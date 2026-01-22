@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Investor Brief | Arboreto Beach Houses</title>
+    <meta
+      name="description"
+      content="Request the Arboreto Investor Brief with rental drivers, pricing context, and buyer process details."
+    />
+    <link rel="stylesheet" href="assets/test2/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="shell navbar">
+        <a class="brand" href="index.html">Arboreto <span>Neoterra</span></a>
+        <nav>
+          <a href="villas.html">Villas</a>
+          <a href="location.html">Location</a>
+          <a href="lifestyle.html">Lifestyle</a>
+          <a href="investment.html">Investment</a>
+          <a href="about.html">Who we are</a>
+          <a class="nav-cta" href="contact.html">Schedule a tour</a>
+        </nav>
+        <button class="mobile-toggle" aria-label="Open menu">&#9776;</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="shell quiz-shell">
+          <div class="section-head">
+            <span class="pill">Gated download</span>
+            <h1>Get the Arboreto Investor Brief.</h1>
+            <p class="muted">Rental drivers, buyer process, and positioning for serious investors.</p>
+          </div>
+          <div class="quiz-card">
+            <form
+              action="https://formspree.io/f/arboreto"
+              method="POST"
+              data-track="download_submit"
+              data-track-label="investor-brief"
+            >
+              <input type="hidden" name="asset" value="Investor Brief" />
+              <input type="hidden" name="source" value="arboreto-investor-brief" />
+              <input type="hidden" name="_subject" value="Investor Brief request" />
+              <input type="hidden" name="_next" value="https://arboreto.cr/thank-you.html" />
+              <div class="form-row">
+                <input type="text" name="firstName" placeholder="First name" autocomplete="given-name" required />
+                <input type="text" name="lastName" placeholder="Last name" autocomplete="family-name" required />
+              </div>
+              <div class="form-row">
+                <input type="email" name="email" placeholder="Email" autocomplete="email" required />
+                <input type="tel" name="phone" placeholder="Phone (optional)" autocomplete="tel" />
+              </div>
+              <select name="timeline" required>
+                <option value="">When do you plan to buy?</option>
+                <option>Within 3 months</option>
+                <option>Within 6 months</option>
+                <option>Within 12 months</option>
+                <option>Just browsing</option>
+              </select>
+              <button class="btn" type="submit" data-track="download_cta" data-track-label="investor-brief">
+                Unlock the brief
+              </button>
+              <p style="font-size: 12px; opacity: 0.7;">
+                We share the brief and follow up with availability within 24 hours.
+              </p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="shell footer-grid">
+        <div>
+          <strong>Arboreto Beach Houses</strong>
+          <p>Neoterra Development · Playa Ocotal, Guanacaste</p>
+        </div>
+        <div>
+          <p>Contact</p>
+          <p>hello@arboreto.cr</p>
+          <p>+506 0000 0000</p>
+        </div>
+        <div>
+          <p>Explore</p>
+          <p><a href="villas.html">Villas</a> · <a href="investment.html">Investment</a></p>
+        </div>
+        <div>
+          <p>All rights reserved <span data-year></span></p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="assets/test2/script.js"></script>
+  </body>
+</html>
